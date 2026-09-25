@@ -1,0 +1,23 @@
+/******************************************************************************
+Edoardo Di Cello 1sin3 esercizio 15
+Scrivere un programma che dato in input un numero, da usare come dividendo, e un altro numero, da usare come divisore, visualizzi un messaggio che dica se il numero è divisibile o meno con quel divisore.
+*******************************************************************************/
+#include <stdio.h>
+
+int main()
+{
+int dividendo,divisore;
+printf("Inserisci il dividendo: ");
+scanf("%d", &dividendo);
+printf("Inserisci il divisore: ");
+scanf("%d", &divisore);
+if(dividendo % divisore==0)
+{
+printf("%d e divisibile per %d", dividendo, divisore);
+}
+else
+{
+printf("%d non e divisibile per %d", dividendo, divisore);
+}
+return 0;
+}
